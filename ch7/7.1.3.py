@@ -33,3 +33,7 @@ result.close = result.close.astype('float64')
 
 
 print(result.head())
+
+print(result.info())
+
+bs.logout()
